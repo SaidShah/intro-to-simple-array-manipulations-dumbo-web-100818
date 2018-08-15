@@ -13,7 +13,7 @@ end
 def pop_with_args(array)
 new_array = []
 counter = 0 
-while counter <= 2 do 
+while counter < 2 do 
   new_array << array.pop 
   counter+=1
 end
