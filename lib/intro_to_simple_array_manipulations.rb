@@ -19,3 +19,7 @@ while counter < 2 do
 end
 new_array
 end
+
+def using_shift(array)
+array.shift 
+end
