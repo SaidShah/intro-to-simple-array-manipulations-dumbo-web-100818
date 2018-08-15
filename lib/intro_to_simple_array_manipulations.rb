@@ -23,3 +23,15 @@ end
 def using_shift(array)
 array.shift 
 end
+
+def shift_with_args(array)
+new_array = []
+counter= 0 
+while counter<2 do
+  new_array << array.shift 
+  counter +=1 
+end
+new_array
+
+
+end
