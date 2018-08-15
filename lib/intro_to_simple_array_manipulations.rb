@@ -15,7 +15,7 @@ new_array = []
 counter = 0 
 while counter < 2 do 
   new_array << array.pop 
-  counter++
+  counter+=1
 end
 new_array
 end
